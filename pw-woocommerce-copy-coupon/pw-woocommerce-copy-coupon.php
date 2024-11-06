@@ -3,11 +3,11 @@
  * Plugin Name: PW WooCommerce Copy Coupon
  * Plugin URI: https://wordpress.org/plugins/pw-woocommerce-exclude-free-shipping
  * Description: Adds a Copy button to WooCommerce coupons.
- * Version: 1.33
+ * Version: 1.34
  * Author: Pimwick, LLC
  * Author URI: https://pimwick.com
  * WC requires at least: 4.0
- * WC tested up to: 9.1
+ * WC tested up to: 9.4
  * Requires Plugins: woocommerce
 */
 
