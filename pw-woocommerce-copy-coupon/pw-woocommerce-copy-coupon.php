@@ -3,7 +3,7 @@
  * Plugin Name: PW WooCommerce Copy Coupon
  * Plugin URI: https://wordpress.org/plugins/pw-woocommerce-exclude-free-shipping
  * Description: Adds a Copy button to WooCommerce coupons.
- * Version: 1.34
+ * Version: 1.35
  * Author: Pimwick, LLC
  * Author URI: https://pimwick.com
  * WC requires at least: 4.0
@@ -45,7 +45,7 @@ if ( ! class_exists( 'PW_Copy_Coupon' ) ) :
 final class PW_Copy_Coupon {
 
     public function __construct() {
-        add_action( 'plugins_loaded', array( $this, 'plugins_loaded' ) );
+        add_action( 'init', array( $this, 'init' ) );
 
         if ( is_admin() ) {
             add_action( 'post_row_actions', array( $this, 'post_row_actions' ), 10, 2 );
@@ -67,7 +67,7 @@ final class PW_Copy_Coupon {
         remove_action( 'post_submitbox_start', array( $this, 'post_submitbox_start' ) );
     }
 
-    function plugins_loaded() {
+    function init() {
         load_plugin_textdomain( 'pimwick', false, basename( dirname( __FILE__ ) ) . '/languages' );
     }
 
