@@ -5,7 +5,7 @@ Tags: woocommerce, copy coupon, coupons, duplicate, copy
 Requires at least: 4.5
 Requires PHP: 7.4
 Tested up to: 6.8
-Stable tag: 1.37
+Stable tag: 1.38
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -28,6 +28,9 @@ PW WooCommerce Copy Coupon adds a Copy link to the default WooCommerce Coupon pa
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 
 == Changelog ==
+
+= 1.38 =
+* Compatibility with WooCommerce 10.1.
 
 = 1.37 =
 * Compatibility with WordPress 6.8 and WooCommerce 9.8.
@@ -56,15 +59,12 @@ PW WooCommerce Copy Coupon adds a Copy link to the default WooCommerce Coupon pa
 = 1.29 =
 * Confirmed compatibility with WooCommerce 8.2
 
-= 1.28 =
-* WooCommerce High Performance Order Storage (HPOS) compatibility.
-
 = Previous versions =
 * See changelog.txt
 
 == Upgrade Notice ==
 
-= 1.37 =
-* Compatibility with WordPress 6.8 and WooCommerce 9.8.
+= 1.38 =
+* Compatibility with WooCommerce 10.1.
 
 
